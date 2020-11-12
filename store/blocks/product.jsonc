@@ -28,17 +28,14 @@
       "product-name",
       "product-identifier.product",
       "product-price",
-      "buy-button"
+      "flex-layout.row#qty-sku"
     ]
   },
   "product-price": {
     "props": {
       "showSavings": true,
       "showListPrice": true
-    },
-    "children": [
-      "flex-layout.row#qty-sku"
-    ]
+    }
   },
   "flex-layout.row#qty-sku": {
     "children": [
